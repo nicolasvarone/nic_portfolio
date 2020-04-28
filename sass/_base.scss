@@ -1,3 +1,5 @@
+// BASE //
+
 *,
 *::after,
 *::before {
@@ -11,11 +13,9 @@ html {
 }
 
 body {
-  background-color: #f5b700;
-  font-family: "Helvetica Neu", Helvetica, sans-serif;
+  background-color: $color-orange;
+  font-family: 'Helvetica Neu', Helvetica, sans-serif;
   font-size: 1rem;
-  color: #000;
+  color: $color-black;
   box-sizing: border-box;
 }
-
-/*# sourceMappingURL=style.css.map */
