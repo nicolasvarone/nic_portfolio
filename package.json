@@ -1,0 +1,14 @@
+{
+  "name": "nicolas_portfolio",
+  "version": "1.0.0",
+  "description": "Nicolas Varone web developer web site",
+  "main": "index.js",
+  "scripts": {
+    "compile_sass": "dart-sass sass/main.scss css/style.css --watch"
+  },
+  "author": "nicolas varone",
+  "license": "ISC",
+  "devDependencies": {
+    "dart-sass": "^1.25.0"
+  }
+}
