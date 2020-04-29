@@ -11,11 +11,19 @@ html {
 }
 
 body {
+  height: 100vh;
   background-color: #f5b700;
   font-family: "Helvetica Neu", Helvetica, sans-serif;
   font-size: 1rem;
   color: #000;
   box-sizing: border-box;
+}
+
+.header {
+  height: 64%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
