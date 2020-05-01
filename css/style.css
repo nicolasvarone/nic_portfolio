@@ -36,11 +36,21 @@ body {
 .paragraph-row .paragraph {
   height: 100%;
   width: 100%;
+  padding: 0 10rem;
 }
 
-p {
-  font-size: 2.2rem;
+.paragraph {
+  text-decoration: underline;
+}
+.paragraph__number {
+  font-size: 5rem;
+  font-weight: 600;
+  transform: translateX(-2rem);
+}
+.paragraph__text {
   font-weight: 400;
+  font-size: 2.2rem;
+  line-height: 1.2;
 }
 
 /*# sourceMappingURL=style.css.map */
