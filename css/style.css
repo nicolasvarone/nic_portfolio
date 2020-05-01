@@ -25,5 +25,17 @@ body {
   justify-content: center;
   align-items: center;
 }
+.header .name {
+  height: 75%;
+}
+
+.paragraph-row {
+  height: 36%;
+  display: flex;
+}
+.paragraph-row .paragraph {
+  height: 100%;
+  width: 100%;
+}
 
 /*# sourceMappingURL=style.css.map */

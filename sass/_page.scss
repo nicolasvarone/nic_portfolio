@@ -1,6 +1,25 @@
+// NAME //
+
 .header {
   height: 64%;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  .name {
+    height: 75%;
+  }
+}
+
+
+// PARAGRAPHS //
+
+.paragraph-row {
+  height: 36%;
+  display: flex;
+
+  .paragraph {
+    height: 100%;
+    width: 100%;
+  }
 }
