@@ -20,23 +20,23 @@ body {
 }
 
 .header {
-  height: 64%;
+  height: 63%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .header .name {
-  height: 75%;
+  height: 80%;
 }
 
 .paragraph-row {
-  height: 36%;
+  height: 37%;
   display: flex;
 }
 .paragraph-row .paragraph {
   height: 100%;
   width: 100%;
-  padding: 0 10rem;
+  padding: 2.5rem 10rem 0;
 }
 
 .paragraph {
@@ -49,8 +49,8 @@ body {
 }
 .paragraph__text {
   font-weight: 400;
-  font-size: 2.2rem;
-  line-height: 1.2;
+  font-size: 2rem;
+  line-height: 1.3;
 }
 
 /*# sourceMappingURL=style.css.map */

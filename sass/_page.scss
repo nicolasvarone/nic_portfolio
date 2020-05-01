@@ -1,13 +1,13 @@
 // NAME //
 
 .header {
-  height: 64%;
+  height: 63%;
   display: flex;
   justify-content: center;
   align-items: center;
 
   .name {
-    height: 75%;
+    height: 80%;
   }
 }
 
@@ -15,12 +15,12 @@
 // PARAGRAPHS //
 
 .paragraph-row {
-  height: 36%;
+  height: 37%;
   display: flex;
 
   .paragraph {
     height: 100%;
     width: 100%;
-    padding: 0 10rem;
+    padding: 2.5rem 10rem 0;
   }
 }
