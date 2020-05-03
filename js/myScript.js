@@ -2,7 +2,7 @@ var count = 100;
 
 var path = new Path.Circle({
 	center: [0, 0],
-	radius: 5,
+	radius: 30,
 	fillColor: '#f5b700',
 	strokeColor: 'black'
 });
@@ -37,7 +37,7 @@ function onFrame(event) {
 	for (var i = 0; i < count; i++) {
 		var item = project.activeLayer.children[i];
 		var size = item.bounds.size;
-		var length = vector.length / 25 * size.width / 25;
+		var length = vector.length / 75 * size.width / 75;
 		item.position += vector.normalize(length) + item.data.vector;
 		keepInView(item);
 	}
