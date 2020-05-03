@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "dart-sass": "^1.25.0"
+  },
+  "dependencies": {
+    "paper": "^0.12.4"
   }
 }

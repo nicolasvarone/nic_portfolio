@@ -1,3 +1,12 @@
+canvas[resize] {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
 *,
 *::after,
 *::before {
@@ -16,6 +25,7 @@ body {
   font-family: "Helvetica Neu", Helvetica, sans-serif;
   font-size: 1rem;
   color: #000;
+  position: relative;
   box-sizing: border-box;
 }
 
