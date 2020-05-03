@@ -43,14 +43,14 @@ body {
   text-decoration: underline;
 }
 .paragraph__number {
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight: 600;
   transform: translateX(-2rem);
 }
 .paragraph__text {
   font-weight: 400;
-  font-size: 2rem;
-  line-height: 1.3;
+  font-size: 2.4rem;
+  line-height: 1.2;
 }
 
 /*# sourceMappingURL=style.css.map */
