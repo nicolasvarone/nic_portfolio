@@ -15,3 +15,39 @@
     line-height: 1.2;
   }
 }
+
+
+// MEDIA QUERIES //
+
+@media (max-width: 1039px) {
+  .paragraph {
+    text-align: center;
+
+    &__number {
+      margin-bottom: .5rem;
+      transform: translateX(0);
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .paragraph {
+
+    &__number {
+      font-size: 4.5rem;
+    }
+
+    &__text {
+      font-size: 2.2rem;
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .paragraph {
+
+    &__text {
+      font-size: 1.8rem;
+    }
+  }
+}
