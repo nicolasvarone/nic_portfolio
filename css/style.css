@@ -30,7 +30,7 @@ body {
 }
 
 .header {
-  height: 63%;
+  height: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,13 +40,24 @@ body {
 }
 
 .paragraph-row {
-  height: 37%;
+  height: 30%;
   display: flex;
 }
 .paragraph-row .paragraph {
   height: 100%;
   width: 100%;
-  padding: 2rem 10rem 0;
+  padding: 0 10rem;
+}
+
+.footer {
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer img {
+  height: 2.5rem;
+  padding: 0 1rem;
 }
 
 .paragraph {

@@ -1,9 +1,9 @@
-var count = 100;
+var count = 60;
 
 var path = new Path.Circle({
 	center: [0, 0],
-	radius: 30,
-	fillColor: '#f5b700',
+	radius: 20,
+	// fillColor: '#f5b700',
 	strokeColor: 'black'
 });
 
