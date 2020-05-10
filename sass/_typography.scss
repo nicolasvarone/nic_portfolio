@@ -2,13 +2,13 @@
 
 .paragraph {
   text-decoration: underline;
-  
+
   &__number {
     font-size: 6rem;
     font-weight: 600;
     transform: translateX(-2rem);
   }
-  
+
   &__text {
     font-weight: 400;
     font-size: 2.4rem;
@@ -16,6 +16,13 @@
   }
 }
 
+span {
+  color: $color-orange;
+  text-decoration: none;
+  padding: 0 0.5rem;
+  margin: 0 0.5rem;
+  background-color: $color-black;
+}
 
 // MEDIA QUERIES //
 
@@ -24,7 +31,7 @@
     text-align: center;
 
     &__number {
-      margin-bottom: .5rem;
+      margin-bottom: 0.5rem;
       transform: translateX(0);
     }
   }
@@ -32,7 +39,6 @@
 
 @media (max-width: 720px) {
   .paragraph {
-
     &__number {
       font-size: 4.5rem;
     }
@@ -45,7 +51,6 @@
 
 @media (max-width: 500px) {
   .paragraph {
-
     &__text {
       font-size: 1.8rem;
     }

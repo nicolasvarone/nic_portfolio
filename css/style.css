@@ -20,7 +20,6 @@ html {
 }
 
 body {
-  height: 100%;
   background-color: #f5b700;
   font-family: "Helvetica Neu", Helvetica, sans-serif;
   font-size: 1rem;
@@ -121,6 +120,14 @@ body {
   font-weight: 400;
   font-size: 2.4rem;
   line-height: 1.2;
+}
+
+span {
+  color: #f5b700;
+  text-decoration: none;
+  padding: 0 0.5rem;
+  margin: 0 0.5rem;
+  background-color: #000;
 }
 
 @media (max-width: 1039px) {
