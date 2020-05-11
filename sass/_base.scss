@@ -20,3 +20,11 @@ body {
   position: relative;
   box-sizing: border-box;
 }
+
+// MEDIA QUERIES //
+
+@media (max-width: 1600px) {
+  body {
+    height: 100%;
+  }
+}

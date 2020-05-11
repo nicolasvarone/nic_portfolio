@@ -46,19 +46,35 @@ span {
 @media (max-width: 720px) {
   .paragraph {
     &__number {
-      font-size: 4.5rem;
+      font-size: 3.5rem;
     }
 
     &__text {
-      font-size: 2.2rem;
+      font-size: 2rem;
     }
   }
 }
 
 @media (max-width: 500px) {
   .paragraph {
+    &__number {
+      font-size: 2.6rem;
+    }
+
     &__text {
       font-size: 1.8rem;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  #choose-color {
+    font-size: 1rem;
+  }
+
+  .paragraph {
+    &__number {
+      font-size: 2.2rem;
     }
   }
 }
