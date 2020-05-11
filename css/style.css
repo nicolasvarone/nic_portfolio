@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  background-color: #f5b700;
+  height: 100vh;
   font-family: "Helvetica Neu", Helvetica, sans-serif;
   font-size: 1rem;
   color: #000;
@@ -28,36 +28,46 @@ body {
   box-sizing: border-box;
 }
 
+#choose-color {
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .header {
+  height: 51%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .header .name {
   height: 45rem;
-  margin-top: 5.5rem;
+  margin-top: 10rem;
 }
 
 .paragraph-row {
+  height: 36%;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 }
 .paragraph-row .paragraph {
   width: 40rem;
-  margin: 5.5rem 6rem 0;
+  margin: 8rem 6rem 0;
 }
 
 .footer {
+  height: 8%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 7rem;
-  padding-bottom: 2rem;
 }
 .footer img {
-  height: 2.5rem;
+  height: 2rem;
   padding: 0 1rem;
+  background-color: #fff;
 }
 
 @media (min-width: 1340px) and (max-width: 1600px) {
@@ -106,28 +116,41 @@ body {
 @media (max-width: 320px) {
   .header .name {
     height: 13rem;
+    margin-top: 4rem;
+  }
+
+  .paragraph-row .paragraph {
+    margin-top: 4rem;
+  }
+  .paragraph-row .footer {
+    margin-top: 4rem;
   }
 }
+#choose-color {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
 .paragraph {
-  text-decoration: underline;
+  text-align: center;
 }
 .paragraph__number {
-  font-size: 6rem;
-  font-weight: 600;
-  transform: translateX(-2rem);
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  text-decoration: line-through;
 }
 .paragraph__text {
-  font-weight: 400;
-  font-size: 2.4rem;
-  line-height: 1.2;
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.1;
 }
 
 span {
-  color: #f5b700;
-  text-decoration: none;
-  padding: 0 0.5rem;
-  margin: 0 0.5rem;
-  background-color: #000;
+  background-color: #fff;
 }
 
 @media (max-width: 1039px) {
@@ -136,7 +159,6 @@ span {
   }
   .paragraph__number {
     margin-bottom: 0.5rem;
-    transform: translateX(0);
   }
 }
 @media (max-width: 720px) {

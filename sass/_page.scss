@@ -1,41 +1,53 @@
+// LINK //
+
+#choose-color {
+  height: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 // NAME //
 
 .header {
+  height: 51%;
   display: flex;
   justify-content: center;
   align-items: center;
 
   .name {
     height: 45rem;
-    margin-top: 5.5rem;
+    margin-top: 10rem;
   }
 }
 
 // PARAGRAPHS //
 
 .paragraph-row {
+  height: 36%;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 
   .paragraph {
     width: 40rem;
-    margin: 5.5rem 6rem 0;
+    margin: 8rem 6rem 0;
   }
 }
 
 // ICONS //
 
 .footer {
+  height: 8%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 7rem;
-  padding-bottom: 2rem;
 
   img {
-    height: 2.5rem;
+    height: 2rem;
     padding: 0 1rem;
+    background-color: $color-white;
   }
 }
 
@@ -113,6 +125,17 @@
   .header {
     .name {
       height: 13rem;
+      margin-top: 4rem;
+    }
+  }
+
+  .paragraph-row {
+    .paragraph {
+      margin-top: 4rem;
+    }
+
+    .footer {
+      margin-top: 4rem;
     }
   }
 }

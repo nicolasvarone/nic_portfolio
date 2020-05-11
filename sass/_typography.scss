@@ -1,27 +1,34 @@
+// LINK STYLES //
+
+#choose-color {
+  text-align: center;
+  text-decoration: none;
+  color: $color-black;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
 // PARAGRAPH STYLES //
 
 .paragraph {
-  text-decoration: underline;
+  text-align: center;
 
   &__number {
-    font-size: 6rem;
-    font-weight: 600;
-    transform: translateX(-2rem);
+    font-size: 4rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    text-decoration: line-through;
   }
 
   &__text {
-    font-weight: 400;
-    font-size: 2.4rem;
-    line-height: 1.2;
+    font-weight: 300;
+    font-size: 2rem;
+    line-height: 1.1;
   }
 }
 
 span {
-  color: $color-orange;
-  text-decoration: none;
-  padding: 0 0.5rem;
-  margin: 0 0.5rem;
-  background-color: $color-black;
+  background-color: $color-white;
 }
 
 // MEDIA QUERIES //
@@ -32,7 +39,6 @@ span {
 
     &__number {
       margin-bottom: 0.5rem;
-      transform: translateX(0);
     }
   }
 }
