@@ -1,13 +1,21 @@
+// LINK //
+
+#choose-color {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
 // NAME //
 
 .header {
   display: flex;
   justify-content: center;
-  align-items: center;
 
   .name {
     height: 45rem;
-    margin-top: 5.5rem;
+    margin-top: 7rem;
   }
 }
 
@@ -16,11 +24,12 @@
 .paragraph-row {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
 
   .paragraph {
     width: 40rem;
-    margin: 5.5rem 6rem 0;
+    margin: 7rem 6rem 0;
   }
 }
 
@@ -31,15 +40,25 @@
   justify-content: center;
   align-items: center;
   margin-top: 7rem;
-  padding-bottom: 2rem;
+
+  .icons-box {
+    background-color: $color-white;
+    padding: 0.3rem 0;
+  }
 
   img {
-    height: 2.5rem;
+    height: 2rem;
     padding: 0 1rem;
   }
 }
 
 // MEDIA QUERIES //
+
+@media (max-width: 1600px) {
+  .footer {
+    padding-bottom: 2rem;
+  }
+}
 
 @media (min-width: 1340px) and (max-width: 1600px) {
   .paragraph-row {
@@ -90,7 +109,7 @@
 @media (max-width: 720px) {
   .header {
     .name {
-      height: 20rem;
+      height: 25rem;
     }
   }
 
@@ -104,7 +123,7 @@
 @media (max-width: 500px) {
   .header {
     .name {
-      height: 15rem;
+      height: 17rem;
     }
   }
 }
@@ -113,6 +132,17 @@
   .header {
     .name {
       height: 13rem;
+      margin-top: 4rem;
+    }
+  }
+
+  .paragraph-row {
+    .paragraph {
+      margin-top: 4rem;
+    }
+
+    .footer {
+      margin-top: 4rem;
     }
   }
 }
