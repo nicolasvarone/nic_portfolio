@@ -34,6 +34,66 @@ body {
   }
 }
 #choose-color {
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.paragraph {
+  text-align: center;
+}
+.paragraph__number {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  text-decoration: line-through;
+}
+.paragraph__text {
+  font-weight: 300;
+  font-size: 2rem;
+  line-height: 1.1;
+}
+
+span {
+  background-color: #fff;
+}
+
+@media (max-width: 1039px) {
+  .paragraph {
+    text-align: center;
+  }
+  .paragraph__number {
+    margin-bottom: 0.5rem;
+  }
+}
+@media (max-width: 720px) {
+  .paragraph__number {
+    font-size: 3.5rem;
+  }
+  .paragraph__text {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .paragraph__number {
+    font-size: 2.6rem;
+  }
+  .paragraph__text {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 320px) {
+  #choose-color {
+    font-size: 1rem;
+  }
+
+  .paragraph__number {
+    font-size: 2.2rem;
+  }
+}
+#choose-color {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -134,66 +194,6 @@ body {
   }
   .paragraph-row .footer {
     margin-top: 4rem;
-  }
-}
-#choose-color {
-  text-align: center;
-  text-decoration: none;
-  color: #000;
-  font-size: 1.4rem;
-  font-weight: 500;
-}
-
-.paragraph {
-  text-align: center;
-}
-.paragraph__number {
-  font-size: 4rem;
-  font-weight: 500;
-  margin-bottom: 0.5rem;
-  text-decoration: line-through;
-}
-.paragraph__text {
-  font-weight: 300;
-  font-size: 2rem;
-  line-height: 1.1;
-}
-
-span {
-  background-color: #fff;
-}
-
-@media (max-width: 1039px) {
-  .paragraph {
-    text-align: center;
-  }
-  .paragraph__number {
-    margin-bottom: 0.5rem;
-  }
-}
-@media (max-width: 720px) {
-  .paragraph__number {
-    font-size: 3.5rem;
-  }
-  .paragraph__text {
-    font-size: 2rem;
-  }
-}
-@media (max-width: 500px) {
-  .paragraph__number {
-    font-size: 2.6rem;
-  }
-  .paragraph__text {
-    font-size: 1.8rem;
-  }
-}
-@media (max-width: 320px) {
-  #choose-color {
-    font-size: 1rem;
-  }
-
-  .paragraph__number {
-    font-size: 2.2rem;
   }
 }
 

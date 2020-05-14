@@ -1,5 +1,7 @@
-@import 'variables';
-@import 'animation';
-@import 'base';
-@import 'page';
-@import 'typography';
+@import 'abstracts/variables';
+
+@import 'base/animation';
+@import 'base/base';
+@import 'base/typography';
+
+@import 'pages/page';
