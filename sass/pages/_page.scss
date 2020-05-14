@@ -15,7 +15,7 @@
 
   &__name {
     height: 45rem;
-    margin-top: 7rem;
+    margin-top: 6rem;
 
     @include respond(tab-port) {
       height: 36rem;
@@ -42,7 +42,7 @@
 
   .paragraph {
     width: 40rem;
-    margin: 7rem 6rem 0;
+    margin: 7.5rem 6rem 0;
   }
 }
 

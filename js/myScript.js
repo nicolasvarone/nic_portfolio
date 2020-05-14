@@ -1,4 +1,4 @@
-var count = 60;
+var count = 100;
 
 var path = new Path.Circle({
   center: [0, 0],
