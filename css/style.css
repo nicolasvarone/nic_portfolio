@@ -58,11 +58,16 @@ html {
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   font-family: "Helvetica Neu", Helvetica, sans-serif;
   font-size: 1rem;
   color: #000;
   position: relative;
+}
+@media (min-width: 1560px) {
+  body {
+    height: 100vh;
+  }
 }
 
 #choose-color {
@@ -77,15 +82,19 @@ body {
   text-align: center;
 }
 .paragraph__number {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 500;
   margin-bottom: 0.5rem;
-  text-decoration: line-through;
 }
 .paragraph__text {
   font-weight: 300;
   font-size: 2rem;
-  line-height: 1.1;
+  line-height: 1.15;
+}
+@media (max-width: 75em) {
+  .paragraph__text {
+    line-height: 1.17;
+  }
 }
 
 span {
@@ -103,9 +112,24 @@ span {
   display: flex;
   justify-content: center;
 }
-.header .name {
+.header__name {
   height: 45rem;
   margin-top: 7rem;
+}
+@media (max-width: 56.25em) {
+  .header__name {
+    height: 36rem;
+  }
+}
+@media (max-width: 37.5em) {
+  .header__name {
+    height: 27rem;
+  }
+}
+@media (max-width: 380px) {
+  .header__name {
+    height: 23rem;
+  }
 }
 
 .paragraph-row {
@@ -124,6 +148,7 @@ span {
   justify-content: center;
   align-items: center;
   margin-top: 7rem;
+  padding-bottom: 2rem;
 }
 .footer .icons-box {
   background-color: #fff;

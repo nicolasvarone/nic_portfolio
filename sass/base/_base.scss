@@ -30,9 +30,13 @@ html {
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   font-family: "Helvetica Neu", Helvetica, sans-serif;
   font-size: 1rem;
   color: $color-black;
   position: relative;
+
+  @media (min-width: 1560px) {
+    height: 100vh;
+  }
 }

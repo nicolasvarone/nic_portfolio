@@ -14,16 +14,19 @@
   text-align: center;
 
   &__number {
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 500;
     margin-bottom: 0.5rem;
-    text-decoration: line-through;
   }
 
   &__text {
     font-weight: 300;
     font-size: 2rem;
-    line-height: 1.1;
+    line-height: 1.15;
+    
+    @include respond(tab-land) {
+      line-height: 1.17;
+    }
   }
 }
 

@@ -37,7 +37,7 @@ function onFrame(event) {
   for (var i = 0; i < count; i++) {
     var item = project.activeLayer.children[i];
     var size = item.bounds.size;
-    var length = ((vector.length / 150) * size.width) / 150;
+    var length = ((vector.length / 300) * size.width) / 300;
     item.position += vector.normalize(length) + item.data.vector;
     keepInView(item);
   }

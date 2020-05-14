@@ -13,10 +13,23 @@
   display: flex;
   justify-content: center;
 
-  .name {
+  &__name {
     height: 45rem;
     margin-top: 7rem;
+
+    @include respond(tab-port) {
+      height: 36rem;
+    }
+    
+    @include respond(phone) {
+      height: 27rem;
+    }
+    
+    @media (max-width: 380px) {
+      height: 23rem;
+    }
   }
+
 }
 
 // PARAGRAPHS //
@@ -33,13 +46,14 @@
   }
 }
 
-// ICONS //
+// FOOTER ICONS //
 
 .footer {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 7rem;
+  padding-bottom: 2rem;
 
   .icons-box {
     background-color: $color-white;
