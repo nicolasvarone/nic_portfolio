@@ -1,74 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>nicolas portfolio</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
-  <title>nicolas portfolio</title>
-</head>
+  <body>
+    <a id="choose-color" href="javascript:history.go(0)"
+      ><span>Choose your color!</span></a
+    >
 
-<body>
-  <a id="choose-color" href="javascript:history.go(0)"><span>Choose your color!</span></a>
+    <header class="header">
+      <img
+        class="header__name"
+        src="images/name.png"
+        alt="nicolas varone fullstack developper"
+      />
+    </header>
 
-  <header class="header">
-    <img class="header__name" src="images/name.png" alt="nicolas varone fullstack developper">
-  </header>
-
-  <main class="paragraph-row">
-    <div class="paragraph">
-      <div class="paragraph__number">
-        <p><span>#About me#</span></p>
+    <main class="paragraph-row">
+      <div class="paragraph">
+        <div class="paragraph__number">
+          <p><span>#About me#</span></p>
+        </div>
+        <div class="paragraph__text">
+          <p>
+            <span
+              >Hello there! My name is Nicolas. Not so long ago I worked as a
+              graphicdesigner. And...<br />I discovered coding. Since then, my
+              lifeand my professional career have totally changed.</span
+            >
+          </p>
+        </div>
       </div>
-      <div class="paragraph__text">
-        <p>
-          <span>Hello there! My name is Nicolas. Not so long ago I worked as a
-            graphicdesigner. And...<br>I discovered coding. Since then, my
-            lifeand my professional career have totally changed.</span>
-        </p>
-      </div>
-    </div>
 
-    <div class="paragraph">
-      <div class="paragraph__number">
-        <p><span>#Philosophy#</span></p>
+      <div class="paragraph">
+        <div class="paragraph__number">
+          <p><span>#Philosophy#</span></p>
+        </div>
+        <div class="paragraph__text">
+          <p>
+            <span
+              >As a designer I enjoy working on front-end to make the digital
+              world more beautiful.<br />I also like to work the heartof the
+              machine in back-end to make the navigation safer and more
+              efficient.</span
+            >
+          </p>
+        </div>
       </div>
-      <div class="paragraph__text">
-        <p>
-          <span>As a designer I enjoy working on front-end to make the digital
-            world more beautiful.<br>I also like to work the heartof the machine
-            in back-end to make the navigation safer and more efficient.</span>
-        </p>
+
+      <div class="paragraph">
+        <div class="paragraph__number">
+          <p><span>#Technology#</span></p>
+        </div>
+        <div class="paragraph__text">
+          <p>
+            <span
+              >I usetechnology like HTML, CSS, SASS, JavaScript and React. I
+              also have good knowledge on Ruby and Ruby On rails. In addition,
+              databases have almost no secrets for me.</span
+            >
+          </p>
+        </div>
       </div>
-    </div>
+    </main>
 
-    <div class="paragraph">
-      <div class="paragraph__number">
-        <p><span>#Technology#</span></p>
+    <footer class="footer">
+      <div class="icons-box">
+        <a href="mailto:varonenico@gmail.com"
+          ><img src="images/icons/at.png" alt="@"
+        /></a>
+        <a href="https://github.com/NicolasVarone" target="_blank"
+          ><img src="images/icons/github-logo.png" alt="github"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/nicolas-varone-b116a7187/"
+          target="_blank"
+          ><img src="images/icons/linkedin-logo.png" alt="linkedin"
+        /></a>
       </div>
-      <div class="paragraph__text">
-        <p>
-          <span>I usetechnology like HTML, CSS, SASS and JavaScript. I
-            also have good knowledge on Ruby and Ruby On rails. In addition,
-            databases have almost no secrets for me.</span>
-        </p>
-      </div>
-    </div>
-  </main>
+    </footer>
 
-  <footer class="footer">
-    <div class="icons-box">
-      <a href="mailto:varonenico@gmail.com"><img src="images/icons/at.png" alt="@"></a>
-      <a href="https://github.com/NicolasVarone" target="_blank"><img src="images/icons/github-logo.png"
-          alt="github" /></a>
-      <a href="https://www.linkedin.com/in/nicolas-varone-b116a7187/" target="_blank"><img
-          src="images/icons/linkedin-logo.png" alt="linkedin" /></a>
-    </div>
-  </footer>
-
-  <canvas id="myCanvas" resize></canvas>
-  <script type="text/javascript" src="js/paper-full.js"></script>
-  <script type="text/paperscript" src="js/myScript.js" canvas="myCanvas"></script>
-</body>
-
+    <canvas id="myCanvas" resize></canvas>
+    <script type="text/javascript" src="js/paper-full.js"></script>
+    <script
+      type="text/paperscript"
+      src="js/myScript.js"
+      canvas="myCanvas"
+    ></script>
+  </body>
 </html>
