@@ -1,0 +1,14 @@
+// BALLS //
+
+#ball_1,
+#ball_2,
+#ball_3,
+#ball_4,
+#ball_5 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: $color-balls;
+  border: 1px solid $color-black;
+}

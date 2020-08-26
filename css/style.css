@@ -22,7 +22,7 @@ canvas[resize] {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: -1000;
 }
 
 *,
@@ -100,6 +100,19 @@ body {
 
 span {
   background-color: #fff;
+}
+
+#ball_1,
+#ball_2,
+#ball_3,
+#ball_4,
+#ball_5 {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-color: #bbbbbb;
+  border: 1px solid #000;
 }
 
 #choose-color {
