@@ -113,8 +113,7 @@ var ball_1 = new ball("ball_1");
 var ball_2 = new ball("ball_2");
 var ball_3 = new ball("ball_3");
 var ball_4 = new ball("ball_4");
-var ball_5 = new ball("ball_5");
-var balls = [ball_1, ball_2, ball_3, ball_4, ball_5];
+var balls = [ball_1, ball_2, ball_3, ball_4];
 
 // Random speed
 function randomSpeed(i) {
@@ -138,5 +137,4 @@ window.setInterval(function () {
   ball_2.paint();
   ball_3.paint();
   ball_4.paint();
-  ball_5.paint();
 }, 10);
